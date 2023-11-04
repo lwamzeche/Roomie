@@ -18,7 +18,7 @@ This project is set up using React Native. To get started, make sure you have co
 First, clone the repository and install the dependencies:
 
 ```bash
-git clone https://github.com/your-username/your-repository.git
+git clone https://github.com/lwamzeche/Roomie.git
 cd your-repository
 npm install
 ```
