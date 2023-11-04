@@ -56,8 +56,3 @@ To dive deeper into React Native and its ecosystem, check out:
 - [React Native Documentation](https://reactnative.dev/docs/getting-started)
 - [React Native Community CLI](https://github.com/react-native-community/cli)
 
-## Contributing
-
-Your contributions are always welcome! Please read the contribution guidelines first.
-
-```
