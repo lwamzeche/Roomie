@@ -75,7 +75,8 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     width: '100%',
     height: '20%',
-    marginBottom: 278,
+    marginBottom: 200,
+  
   },
   option: {
     width: '45%',
