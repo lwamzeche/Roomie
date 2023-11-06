@@ -1,5 +1,6 @@
 import IntroSurvey from '../screens/second_part/IntroSurvey';
 import LifeSS from '../screens/second_part/LifeSS';
+import SurveySuccess from '../screens/second_part/SurveySuccess';
 
 
 export const LifeSSNavigator = [
@@ -13,4 +14,10 @@ export const LifeSSNavigator = [
         component: LifeSS,
         options: {headerShown: false}
     },
+    {
+        name: 'SurveySuccess',
+        component: SurveySuccess,
+        options: {headerShown: false}
+    },
+
 ];

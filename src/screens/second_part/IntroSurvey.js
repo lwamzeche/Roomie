@@ -21,7 +21,7 @@ const IntroToSurvey = ({ navigation }) => {
                     
                 </View>
             <View style={styles.listItem}>
-                <View style={styles.listBullet}><Text style={styles.listBulletText}>1</Text></View>
+                <View style={styles.listBullet}><Text style={styles.listBulletText}>2</Text></View>
                 <View>
                     <Text style={styles.listHeading}>Find your match</Text>
                     <Text style={styles.listDescription}>Our system will match you with the most compatible roomate</Text>
