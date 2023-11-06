@@ -40,7 +40,7 @@ const SchoolProgram = ({navigation}) => {
       />
       <TouchableOpacity
         style={styles.nextButton}
-        onPress={() => navigation.navigate('Survey')}>
+        onPress={() => navigation.navigate('IntroSurvey')}>
         <Text style={styles.nextButtonText}>Next</Text>
       </TouchableOpacity>
     </View>

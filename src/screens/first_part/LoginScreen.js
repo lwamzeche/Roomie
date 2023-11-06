@@ -6,7 +6,7 @@ import {
   StyleSheet,
   TouchableOpacity,
 } from 'react-native';
-import Header from '../components/Header';
+import Header from '../../components/Header';
 
 const LoginScreen = ({navigation}) => {
   return (
