@@ -76,7 +76,6 @@ const styles = StyleSheet.create({
     width: '100%',
     height: '20%',
     marginBottom: 200,
-  
   },
   option: {
     width: '45%',
