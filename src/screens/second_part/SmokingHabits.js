@@ -24,14 +24,9 @@ const ChoiceButton = ({label, isSelected, onSelect}) => {
   );
 };
 
-const smokingHabits = ({navigation}) => {
-  // eslint-disable-next-line react-hooks/rules-of-hooks
+const SmokingHabits = ({navigation}) => {
   const [selectedSmokeHabit, setSelectedSmokeHabit] = useState(null);
-
-  // eslint-disable-next-line react-hooks/rules-of-hooks
   const {width} = useWindowDimensions();
-
-  // eslint-disable-next-line no-shadow
   const smokingHabits = [
     'Smoker',
     'Non Smoker',
@@ -69,7 +64,7 @@ const smokingHabits = ({navigation}) => {
 
       <TouchableOpacity
         style={styles.nextButton}
-        onPress={() => navigation.navigate('SmokingHabit')}>
+        onPress={() => navigation.navigate('GamingHabits')}>
         <Text style={styles.nextButtonText}>Next</Text>
       </TouchableOpacity>
     </ScrollView>
@@ -160,4 +155,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default smokingHabits;
+export default SmokingHabits;

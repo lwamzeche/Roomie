@@ -66,7 +66,7 @@ const SleepHabit = ({navigation}) => {
 
       <TouchableOpacity
         style={styles.nextButton}
-        onPress={() => navigation.navigate('SmokingHabit')}>
+        onPress={() => navigation.navigate('SmokingHabits')}>
         <Text style={styles.nextButtonText}>Next</Text>
       </TouchableOpacity>
     </ScrollView>
