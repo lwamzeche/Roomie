@@ -9,30 +9,56 @@ import DormitoryName from '../screens/first_part/DormitoryName';
 import MBTI from '../screens/first_part/MBTI';
 import {LifeSSNavigator} from './LifeSSNavigator';
 
-
 const Stack = createStackNavigator();
-
 
 function AppNavigator() {
   return (
-      <Stack.Navigator initialRouteName="Welcome">
-        <Stack.Screen name="Welcome" component={WelcomeScreen} options={{headerShown: false}}/>
-        <Stack.Screen name="Login" component={LoginScreen} options={{headerShown: false}}/>
-        <Stack.Screen name="UserType" component={UserTypeScreen} options={{headerShown: false}}/>
-        <Stack.Screen name="Gender" component={GenderDormitoryScreen} options={{headerShown: false}}/>
-        <Stack.Screen name="Program" component={SchoolProgram} options={{headerShown: false}}/>
-        <Stack.Screen name="Dormitory" component={DormitoryName} options={{headerShown: false}}/>
-        <Stack.Screen name="MBTI" component={MBTI} options={{headerShown: false}}/>
-        {LifeSSNavigator.map(screen => (
-          <Stack.Screen
-            key={screen.name}
-            name={screen.name}
-            component={screen.component}
-            options={screen.options}
-          />
-        ))}
-        {/* Add more screens */}
-      </Stack.Navigator>
+    <Stack.Navigator initialRouteName="Welcome">
+      <Stack.Screen
+        name="Welcome"
+        component={WelcomeScreen}
+        options={{headerShown: true}}
+      />
+      <Stack.Screen
+        name="Login"
+        component={LoginScreen}
+        options={{headerShown: true}}
+      />
+      <Stack.Screen
+        name="UserType"
+        component={UserTypeScreen}
+        options={{headerShown: true}}
+      />
+      <Stack.Screen
+        name="Gender"
+        component={GenderDormitoryScreen}
+        options={{headerShown: true}}
+      />
+      <Stack.Screen
+        name="Program"
+        component={SchoolProgram}
+        options={{headerShown: true}}
+      />
+      <Stack.Screen
+        name="Dormitory"
+        component={DormitoryName}
+        options={{headerShown: true}}
+      />
+      <Stack.Screen
+        name="MBTI"
+        component={MBTI}
+        options={{headerShown: true}}
+      />
+      {LifeSSNavigator.map(screen => (
+        <Stack.Screen
+          key={screen.name}
+          name={screen.name}
+          component={screen.component}
+          options={screen.options}
+        />
+      ))}
+      {/* Add more screens */}
+    </Stack.Navigator>
   );
 }
 
