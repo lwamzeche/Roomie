@@ -27,6 +27,7 @@ const ChoiceButton = ({label, isSelected, onSelect}) => {
 const GamingHabits = ({navigation}) => {
   const [selectedGamingHabit, setSelectedGamingHabit] = useState(null);
   const {width} = useWindowDimensions();
+  // eslint-disable-next-line no-shadow
   const GamingHabits = ['Gamer', 'Non Gamer', 'occasional', 'Does not matter'];
 
   const selectGamingHabit = habit => {

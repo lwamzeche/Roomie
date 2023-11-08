@@ -130,7 +130,7 @@ const styles = StyleSheet.create({
     borderColor: '#007AFF', // Same color for the border
   },
   choiceButtonText: {
-    textAlign: 'black',
+    textAlign: 'center',
   },
   choiceButtonTextSelected: {
     color: 'white',
